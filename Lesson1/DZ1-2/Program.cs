@@ -1,6 +1,21 @@
-﻿// Программа, которая определяет большее  из двух
+﻿// Программа, которая определяет большее  из двух чисел
 
-int number = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число А");
+int A = int.Parse(Console.ReadLine());
 
+Console.WriteLine("Введите число В");
+int B = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Мама дарагая! Как это все понять!");
+if (A > B)
+{
+    Console.WriteLine("max:" + A);
+}
+
+if (A < B)
+{
+    Console.WriteLine("max:" + B);
+}
+if (A == B)
+{
+    Console.WriteLine("Числа равны");
+}
