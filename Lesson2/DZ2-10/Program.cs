@@ -1,15 +1,9 @@
-﻿
+﻿Console.WriteLine("Введите трехзначное число ");
 
-//Console.WriteLine("Введите трехзначное число ");
+int number = int.Parse(Console.ReadLine());
 
-//int[] array = new int[] { int.Parse(Console.ReadLine()) };
+string str = number.ToString();
 
-
-
-//for (int i = 0; i < array.Length; i++) ;
-
-//int index = 1;
-
-Console.WriteLine(array[1]);
+Console.WriteLine(str[1]);
 
 
